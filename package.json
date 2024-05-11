@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node lab1.js"
+    "test": "mocha --recursive --timeout 600000"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "selenium-webdriver": "^4.20.0"
-  }
+    "selenium-webdriver": "^4.20.0",
+    "chai": "^4.3.7",
+    "mocha": "^10.4.0"
+  },
+  "devDependencies": {}
 }
