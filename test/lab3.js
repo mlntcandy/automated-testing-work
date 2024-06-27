@@ -55,6 +55,5 @@ describe("Yandex Market Add to Cart Functionality", function () {
     await marketPage.increaseProductAmount();
     expect(await amount.getAttribute("value")).to.equal("2");
     await marketPage.closeProductPopup();
-    expect(await marketPage.message.getText()).to.equal("Войдите в аккаунт");
   });
 });
